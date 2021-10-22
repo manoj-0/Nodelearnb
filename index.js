@@ -8,6 +8,7 @@ const fun_get = (req, res) => {
   console.log(req.query);
   res.send("Hello World from get");
 };
+
 app.get("/", fun_get);
 // app.post("/", () => fu_get(req, res));
 app.delete("/:id", function (req, res) {
