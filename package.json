@@ -1,0 +1,16 @@
+{
+  "name": "nodelearnb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handy-log": "^1.0.3",
+    "nodemon": "^2.0.14"
+  }
+}
